@@ -1,115 +1,207 @@
 header{
-    width: 1154px;
-    height: 80px;
-}
-menu{
-    width: 799.36px;
-    float: right;
-    align: rigth;
+    max-width: 1206px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #43b1d2;
 
 }
 
-li.menu{
+#header{
+    position: relative;
+    height: inherit;
+    max-width: 1206px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logotype{
+    position: absolute;
+    width: 216px;
+    align: left;
+    max-width: 216px;
+    heigth: 50px;
+    margin: 0;
+    margin-top: 30px;
+}
+
+#logotype__img{
+    width: 50px;
+    height: 50px;
     float: left;
-    text-align: center;
-    list-style-type: none;
-    display: inline-block;
-    width: 82.42px;
     margin-left: 15px;
+
 }
 
-li.bigbutton{
+#logotype__header{
+    font-family: Calibri;
+    font-size: 12pt;
+    font-weight: bold;
+    color: #494848;
     float: left;
-    text-align: center;
+    text-align: left;
+    width: 110px;
+    vertical-align: center;
+    margin: 0;
+    margin-left: 20.5px;
+    margin-top: 5px;
+}
+
+#head_menu{
+    position: absolute;
+    wight: 990px;
+    height: 60px;
+    margin: 0;
+    margin-left: 216px;
+    margin-top: 40px;
+    float: right;
+
+}
+
+#head_menu__list{
+    float: right;
+    width: auto;
+    padding-left: 352px;
+    padding-right: 15px;
+    vertical-align: center;
+    align: right;
+
+}
+
+.head_menu__menu_point{
     list-style-type: none;
     display: inline-block;
-    width: 194.84px;
+    width: auto;
     margin-left: 15px;
 }
 
 .menulink{
+    font-family: Calibri;
+    font-size: 14pt;
     text-decoration: none;
-    color: dimgrey;
+    color: #494848;
     font-weight: bold;
-    font-family: "Merriweather Black";
+
 }
 
-#logo{
-    width: 281.26px;
-    height: 50px;
-    float: left;
-    border: 1pt solid silver;
-}
 
-#call{
+
+.call-by-number{
+    position: absolute;
+    width: 100%;
+    max-width: 1206px;
     float: right;
     text-align: right;
-    width: 179.84px;
     height: 20px;
-    margin-top: 10px;
     margin-right: 0;
+    margin-top: 20px;
+    margin-bottom: 10px;
     color: white;
     font-weight: bold;
     font-size: 14pt;
 }
 
-span{
+.call-by-number__phone{
     float: right;
     text-align: right;
+    margin-right: 15px;
 }
 
-#phonic{
+#call-by-number__image{
     float: right;
     width: 20px;
     height: 20px;
     margin-right: 15px;
 }
 
-#banner{
-    position: relative;
-    width: 1154px;
-    height: 350px;
-    background-image: url('../img/doc.jpg');
-    background-position: left;
-    background-size: contain;
+.banner{
+    max-width: 1206px;
+    height: 300px;
+    background: #dde2e8;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.banner__content{
+    max-width: 1206px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+    background-image: url('../img/doc.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.banner__text{
+    float: right;
+    max-width: 673.5px;
+    padding-right: 15px;
+    font-family: "Calibri";
+    line-height: 15pt;
+    font-size: 14pt;
+    text-align: right;
+    color: #494848;
+
+}
+
+.banner__header{
+    max-width: 673.5px;
+    width: 673.5px;
+    float: right;
+    padding-right: 20px;
+    text-align: right;
+    font-family: Myriad Pro;
+    font-weight: bold;
+    font-size: 18pt;
+}
+
+.callback_block{
+    width: auto;
+    height: 100px;
+    padding-top: 200px;
+}
+
+.callback_block__form{
+    max-width: 673.5px;
+    width: 673.5px;
+    float: right;
+    padding-right: 15px;
     text-align: right;
 }
 
-#bantext{
-    margin-top: 100px;
-    margin-right: 20px;
-    position: relative;
+.callback_block__table{
     float: right;
-    width: 680.94px;
-    height: 250px;
-    text-align: right;
+
 }
 
 input#pnumber{
     margin: 0;
 }
 
-#bcallback{
-    margin: 0;
-}
+
+
+
+
 
 #benefits{
-    position: relative;
-    width: 1154px;
-    height: 250px;
+    max-width: 1206px;
+    margin-left: auto;
+    margin-right: auto;
     text-align: right;
 }
 
-div.benblock{
+.benefits__block{
     float: left;
     display: inline-block;
-    width: 288.5px;
-    height: 250px;
-    margin: 0;
+    width: 271.5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: auto;
     text-align: center;
 }
 
-img.benimg{
+.benefits__block_image{
     margin-top: 30px;
     width: 100px;
     height: 100px;
@@ -117,12 +209,19 @@ img.benimg{
 
 }
 
-h4.benheader{
+.benefits__block_header{
     margin-left: 10px;
     margin-right: 10px;
+    font-family: Myriad Pro;
+    font-size: 20pt;
+    font-weight: bold;
+    color: white;
 }
 
-p.bentext{
+.benefits__block_text{
     margin-left: 15px;
     margin-right: 15px;
+    font-family: Myriad Pro;
+    font-size: 14pt;
+    color: white;
 }

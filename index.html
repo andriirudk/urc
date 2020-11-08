@@ -5,71 +5,77 @@
     <title>Единый цент записи</title>
     <link rel="stylesheet" href="node_modules/normalize.css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
-    <style>
-        body{
-            width: 1154px;
-            height: auto;
-            margin-left: 5%;
-            background: #65C2DB;
-        }
-    </style>
 </head>
 <body>
 <header>
-   <div id="call"><span id="">80300 500</span><img id="phonic" src="#" alt=""></div>
-    <br>
-    <img src="#" id="logo" alt="Единый центр записи">
-    <menu type="context">
-        <li class="menu" style="margin-left: 0;"><a class="menulink" href="#">Главная</a></li>
-        <li class="menu"><a class="menulink" href="#">Услуги</a></li>
-        <li class="bigbutton"><a class="menulink" href="#">Клиники и кабинеты</a></li>
-        <li class="menu"><a class="menulink" href="#">О нас</a></li>
-        <li class="menu"><a class="menulink" href="#">Статьи</a></li>
-        <li class="menu"><a class="menulink" href="#">FAQ</a></li>
-        <li class="menu"><a class="menulink" href="#">Контакты</a></li>
+    <div id="header">
+    <div class="call-by-number">
+        <a class="call-by-number__phone">80300 500</a>
+        <img id="call-by-number__image" src="img/phone.png" alt="">
+    </div>
+    <div class="logotype">
+        <img src="img/logo.png" id="logotype__img" alt="Единый центр записи">
+        <h4 id="logotype__header">Единый<br>Центр Записи</h4>
+    </div>
+    <div id="head_menu">
+    <menu id="head_menu__list" type="context">
+        <li class="head_menu__menu_point"><a class="menulink" href="#">Главная</a></li>
+        <li class="head_menu__menu_point"><a class="menulink" href="#">Услуги</a></li>
+        <li class="head_menu__menu_point" width="200px"><a class="menulink" href="#">Клиники и кабинеты</a></li>
+        <li class="head_menu__menu_point"><a class="menulink" href="#">О нас</a></li>
+        <li class="head_menu__menu_point"><a class="menulink" href="#">Статьи</a></li>
+        <li class="head_menu__menu_point"><a class="menulink" href="#">FAQ</a></li>
+        <li class="head_menu__menu_point"><a class="menulink" href="#">Контакты</a></li>
     </menu>
+    </div>
+    </div>
 </header>
-<div id="banner">
-    <div id="bantext">
-        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+<div class="banner">
+    <div class="banner__content">
+        <p class="banner__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
         Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
         natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
         Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
         Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
         natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
         </p>
-        <h1>Lorem ipsum dolor sit amet</h1>
-        <form action="#" id="callback">
-            <label><input id='pnumber' type="text" name="pnumber" placeholder="+380">
-                    <button type="submit" id="bcallback">Отправить</button>
-            </label>
+        <h1 class="banner__header">Lorem ipsum dolor sit amet</h1>
+        <div class="callback_block">
+        <form action="#" class="callback_block__form">
+            <table class="callback_block__table">
+                <tr>
+                    <td><input id='pnumber' type="text" name="pnumber" placeholder="+380"></td>
+                    <td><button type="submit" id="bcallback">Отправить</button></td>
+                </tr>
+            </table>
         </form>
+        </div>
     </div>
 
 </div>
 <div id="benefits">
-    <div class="benblock" style="background: #65C2DB;">
-        <img src='img/imgben.jpg' class="benimg">
-        <h4 class="benheader">Lorem ipsum dolor</h4>
-        <p class="bentext">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+    <div class="benefits__block" style="background: #43b1d2;">
+        <img src='img/imgben.jpg' class="benefits__block_image">
+        <h4 class="benefits__block_header">Lorem ipsum dolor</h4>
+        <p class="benefits__block_text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
             Aenean commodo ligula eget dolor.</p>
     </div>
-    <div class="benblock" style="background: #65C2C5;">
-        <img src='img/imgben.jpg' class="benimg">
-        <h4 class="benheader">Lorem ipsum dolor</h4>
-        <p class="bentext">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+    <div class="benefits__block" style="background: #3fb6c6;">
+        <img src='img/imgben.jpg' class="benefits__block_image">
+        <h4 class="benefits__block_header">Lorem ipsum dolor</h4>
+        <p class="benefits__block_text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
             Aenean commodo ligula eget dolor.</p>
     </div>
-    <div class="benblock" style="background: #65C8C5;">
-        <img src='img/imgben.jpg' class="benimg">
-        <h4 class="benheader">Lorem ipsum dolor</h4>
-        <p class="bentext">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+    <div class="benefits__block" style="background: #3cbbbb;">
+        <img src='img/imgben.jpg' class="benefits__block_image">
+        <h4 class="benefits__block_header">Lorem ipsum dolor</h4>
+        <p class="benefits__block_text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
             Aenean commodo ligula eget dolor.</p>
     </div>
-    <div class="benblock" style="background: #65DEC5;">
-        <img src='img/imgben.jpg' class="benimg">
-        <h4 class="benheader">Lorem ipsum dolor</h4>
-        <p class="bentext">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+    <div class="benefits__block" style="background: #37c3a8;">
+        <img src='img/imgben.jpg' class="benefits__block_image">
+        <h4 class="benefits__block_header">Lorem ipsum dolor</h4>
+        <p class="benefits__block_text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
             Aenean commodo ligula eget dolor.</p>
     </div>
 </div>
